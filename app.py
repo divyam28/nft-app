@@ -37,7 +37,7 @@ def load_image(image_file):
 	return img
 
 final_model = NFTModelA()
-final_model.load_state_dict(torch.load('../model_2065.713518857956_31'))
+final_model.load_state_dict(torch.load('model_2065.713518857956_31'))
 final_model.eval()
 
 st.subheader("Upload your art here!")
