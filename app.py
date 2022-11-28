@@ -9,7 +9,6 @@ from transformers import BertTokenizer, BertModel
 import time
 import torch
 import os
-import cv2
 import time
 from sklearn.metrics import mean_squared_error
 import math
